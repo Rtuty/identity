@@ -34,8 +34,10 @@ app.MapPost("/register", (RegisterBody User) =>
     }
 });
 
+
 app.MapPost("/authorization", (AuthorizationBody User) =>
 {
+    
 });
 
 app.Run();
